@@ -1,14 +1,12 @@
 /**
- * Расширение класса и переопределение методов надкласса (суперкласс).
+ * Расширение класса и переопределение методов надкласса (суперкласса).
  */
-
-
-let name1: string;
 
 class Az {
 
+	name1: string;
 	constructor(paramm: string) {
-		name1 = paramm;
+		this.name1 = paramm;
 	}
 	methodAz() {
 		let az = Math.random();
@@ -30,7 +28,7 @@ class Buki extends Az {
 	}
 
 	print2(name: string) {
-		console.log(`${name1}-${name}`);
+		console.log(`${this.name1}-${name}`);
 	}
 
 	// переопределение метода надкласса-родителя
