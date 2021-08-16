@@ -1,5 +1,5 @@
 
-function rangeOf(...range: number[] | string[]) {
+function rangesOF(...range: string[] | number[]): number[] {
 
 	// составляем массив из измененных входящих значений
 	let per33: number[] = [];
@@ -11,10 +11,6 @@ function rangeOf(...range: number[] | string[]) {
 	return per33;
 }
 
-let array = rangeOf("111", "2", "3", "4", "55", "6", "7", "8");
-
-for (let item of array) {
-	console.log(item);
-}
+console.log(rangesOF(22,33).join(', '))
 
 

@@ -39,5 +39,5 @@ class Buki extends Az {
 
 let extendSuperClass = new Buki("Изменяем строку суперкласса отправленную ранее");
 extendSuperClass.print2("123");
-extendSuperClass.move(1234);
+extendSuperClass.move(1235);
 

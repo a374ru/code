@@ -27,8 +27,11 @@ class RRR implements Description {
 let vasilisa = new RRR;
 
 // инит переменной типом string по ключу `typeof` и присваиванием значения
-let rrr: typeof vasilisa.name = "Васёк-девочка"
+let rrr: typeof vasilisa.name = "Васёк девочка"
 
 console.log(rrr, fio(user), fio(vasilisa), typeof (user) == typeof (vasilisa));
+
+
+
 
 
